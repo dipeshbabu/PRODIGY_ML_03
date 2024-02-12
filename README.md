@@ -16,8 +16,6 @@ Install dependencies using (if not installed):
 pip install tensorflow tensorflow-datasets scikit-learn opencv-python
 ```
 
-````
-
 ## Usage
 
 1. Clone the repository:
@@ -44,4 +42,3 @@ pip install tensorflow tensorflow-datasets scikit-learn opencv-python
 
 - Adjust the percentage of the dataset loaded in the `split` argument of `tfds.load` based on your available memory.
 - Modify hyperparameter ranges and distribution in the `param_dist` dictionary for random search in the code based on your experimentation.
-````
